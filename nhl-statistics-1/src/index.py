@@ -5,7 +5,7 @@ from player_reader import PlayerReader
 def main():
     stats = Statistics(PlayerReader())
 
-    philadelphia_flyers_players = stats.team("PHI")
+    philadelphia_flyers_players = stats.team("EDM")
     top_scorers = stats.top_scorers(10)
 
     print("Philadelphia Flyers:")

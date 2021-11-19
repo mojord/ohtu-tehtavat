@@ -21,18 +21,4 @@ class PlayerReader:
 
             player = Player(name, nationality, assists, goals, penalties, team, games)
 
-            if player.nationality == "FIN":
-                players.append(player)
-
-#            if len(parts) > 3:
-#                player = Player(
-#                    parts[0].strip(),
-#                    parts[1].strip(),
-#                    int(parts[3].strip()),
-#                    int(parts[4].strip())
-#                )
-#        for player in players:
-#            print(player)
-
-
         return players

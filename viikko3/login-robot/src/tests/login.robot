@@ -8,11 +8,12 @@ Login With Correct Credentials
     Output Should Contain  Logged in
 
 Login With Incorrect Password
-    Input Faulty Credentials kalle kalle124
+    Input Credentials kalle kalle124
+    Check Credentials kalle kalle124
     Output Should Contain  Invalid username or password
 
 Login With Nonexistent username
-    Input Credentials ville
+    Input Credentials kallew kalle123
     Output Should Contain  Invalid username or password
 
 
@@ -20,3 +21,5 @@ Login With Nonexistent username
 Create User And Input Login Command
     Create User  kalle  kalle123
     Input Login Command
+
+

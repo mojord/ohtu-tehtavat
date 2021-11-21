@@ -31,6 +31,6 @@ class AppLibrary:
 
     def create_user(self, username, password):
         self._user_service.create_user(username, password)
-    def input_faulty(self, value):
-        self._io.add_input(value)
+    def check_credentials(self, username, password):
+        self._user_service.check_credentials(username, password)
     

@@ -11,11 +11,12 @@ Input Credentials
     Input  ${password}
     Run Application
 
-Input Faulty Credentials
+Check Credentials
     [Arguments]  ${username}  ${password}
     Input  ${username}
     Input  ${password}
-    Run Application
+    Check Credentials  ${username}
+    Check Credentials  ${password}
 
 Input New Command
     Input  new

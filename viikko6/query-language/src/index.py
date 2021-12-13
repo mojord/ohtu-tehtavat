@@ -37,14 +37,16 @@ def main():
 #    HasAtLeast(30, "goals"),
 #    HasAtLeast(50, "assists")
 #    )
-    matcher = And(
-    HasAtLeast(40, "points"),
-    Or(
-        PlaysIn("NYR"),
-        PlaysIn("NYI"),
-        PlaysIn("BOS")
-    )
-)
+#    matcher = And(
+3    HasAtLeast(40, "points"),
+#    Or(
+#        PlaysIn("NYR"),
+#        PlaysIn("NYI"),
+#        PlaysIn("BOS")
+#    )
+#)
+
+
 
 
 
